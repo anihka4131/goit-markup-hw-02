@@ -96,17 +96,16 @@ background-color: #2F303A;
     font-weight: 400;
     line-height: 1.71
     letter-spacing: 0.42px;
-    background: #2F303A;
 }
 .address-list-link{
     color: rgba(255, 255, 255, 0.60);
 }
-      
-
-
-
-
-
+.footer{
+    background: #2F303A;
+}
+.footer-logo-link-span{
+    color: #FFF;;
+}
 
 .btn {
     color: #212121;
@@ -122,4 +121,17 @@ background-color: #2F303A;
 .btn.btn:focus{
     background-color: #2196F3;
     color: #FFFFFF;
+}
+.portfoio-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.0;
+    letter-spacing: 1.08px;
+}
+.portfolio-text{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.88;
+    letter-spacing: 0.48px;
 }
