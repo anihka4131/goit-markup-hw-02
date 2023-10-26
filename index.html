@@ -10,11 +10,19 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
     <header class="header">
-      <a class="logo-link" href="./index.html"
+      <div class="container header-container">
+        <a class="logo-link" href="./index.html"
         >Web<span class="logo-link-span">Studio</span></a
       >
       <nav class="nav">
@@ -23,7 +31,7 @@
             <a class="header-link-current" href="./index.html">Студія</a>
           </li>
           <li class="item">
-            <a class="header-link" href="./portfolio.html">Портфоліо</a>
+            <a class=" link" href="./portfolio.html">Портфоліо</a>
           </li>
           <li class="item">
             <a class="link" href="#">Контакти</a>
@@ -32,13 +40,15 @@
       </nav>
       <ul class="header-group-link">
         <li>
-          <a class="link" href="email:info@devstudio.com">info@devstudio.com</a>
+          <a class="link header-email" href="email:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li><a class="link" href="tel:380961111111">+38 096 111 11 11</a></li>
       </ul>
+      </div>
     </header>
     <main>
-      <section class="profile-header">
+           <section class="profile-header ">
+         <div class="container">
         <h1 class="profile-header-title">
           Ефективні рішення для вашого бізнесу
         </h1>
@@ -46,7 +56,8 @@
           Замовити послугу
         </button>
       </section>
-      <section class="spesifics">
+      <section class="spesifics section">
+        <div class="container">
         <ul class="list">
           <li>
             <h3 class="spesifics-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -76,8 +87,10 @@
             </p>
           </li>
         </ul>
+            </div>
       </section>
-      <section class="provide">
+        <section class="provide section">
+         <div class="container">
         <h2 class="provide-title">Чим ми займаємося</h2>
         <ul class="list">
           <li class="item">
@@ -108,8 +121,10 @@
             />
           </li>
         </ul>
+        </div>
       </section>
-      <section class="team">
+             <section class="team section">
+              <div class="container">
         <h2 class="main-team-title">Наша команда</h2>
         <ul class="list">
           <li>
@@ -153,10 +168,12 @@
             <p class="text">UI Designer</p>
           </li>
         </ul>
+         </div>
       </section>
-    </main>
+         </main>
     <footer class="footer">
-      <a class="logo-link" href="./index.html"
+      <div class="container">
+        <a class="logo-link" href="./index.html"
         >Web<span class="footer-logo-link-span">Studio</span></a
       >
       <address class="address">
@@ -172,6 +189,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
