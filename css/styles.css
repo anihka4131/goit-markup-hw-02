@@ -73,7 +73,7 @@ img{
 }
 
 .item:not(:last-child) {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 .header-link .link:hover,
 .header-link .link:focus {
@@ -138,6 +138,7 @@ background-color: var(--secondary-bg-cl);
     text-transform: uppercase;
     padding-bottom: 30px;
     width: 696px;
+    margin: auto;
    }
 .profile-header-btn{
     background-color: var(--accent-bg-cl);
@@ -148,8 +149,7 @@ background-color: var(--secondary-bg-cl);
     max-width: 240px;
     min-width: 216px;
     min-height: 50px;
-    display: block;
-      }
+    }
      
   
 .spesifics-title{
